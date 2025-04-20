@@ -33,6 +33,12 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "ratings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::rating.rating",
+      "mappedBy": "car"
     }
   }
 }
