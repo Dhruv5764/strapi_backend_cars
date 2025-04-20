@@ -70,6 +70,12 @@
       "relation": "oneToMany",
       "target": "api::rating.rating",
       "mappedBy": "users_permissions_user"
+    },
+    "rooms": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::room.room",
+      "mappedBy": "users"
     }
   }
 }
