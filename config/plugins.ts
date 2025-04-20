@@ -1,1 +1,10 @@
-export default () => ({});
+module.exports = {
+    graphql: {
+      enabled: true,
+      config: {
+        endpoint: '/graphql',
+        playgroundAlways: true,
+      },
+    },
+  };
+  
